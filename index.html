@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina Chatzianagnostou - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav-brand"></div>
+            <div class="nav-items" id="navItems">
+                <a href="#home">Home</a>
+                <a href="#experience">Experience</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/christina-chatzianagnostou/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.github.com/christinachatz" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <button class="mobile-menu" id="mobileMenuBtn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <img src="images/profile.jpg" alt="Christina Chatzianagnostou" class="profile-pic">
+                </div>
+                <h1>Christina <span>Chatzianagnostou</span></h1>
+                <p id="heroSubtitle">Electrical & Computer Engineer | TUC Graduate</p>
+                <div class="cta-buttons">
+                    <a href="#experience" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i>View Experience
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>Get in Touch
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="grid grid-3">
+                <div class="card reveal">
+                    <h2><i class="fas fa-heart"></i> Interests</h2>
+                    <div class="chip-container">
+                        <div class="chip">
+                            <span class="chip-icon">🤖</span>
+                            <span>AI & Machine Learning</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🧠</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">👁️</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">📊</span>
+                            <span>Signal Processing</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🏥</span>
+                            <span>Biomedical Applications</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">💻</span>
+                            <span>Programming</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🎓</span>
+                            <span>Educational Technology</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🔬</span>
+                            <span>Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card reveal">
+                    <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                    <div class="chip-container">
+                        <div class="chip"><i class="fab fa-python"></i>Python</div>
+                        <div class="chip"><i class="fas fa-code"></i>MATLAB</div>
+                        <div class="chip"><i class="fab fa-cuttlefish"></i>C/C++</div>
+                        <div class="chip"><i class="fab fa-js-square"></i>JavaScript</div>
+                        <div class="chip"><i class="fab fa-html5"></i>HTML</div>
+                        <div class="chip"><i class="fab fa-php"></i>PHP</div>
+                        <div class="chip"><i class="fas fa-microchip"></i>VHDL</div>
+                        <div class="chip"><i class="fab fa-unity"></i>Unity</div>
+                        <div class="chip"><i class="fab fa-git-alt"></i>Git</div>
+                        <div class="chip"><i class="fas fa-chart-bar"></i>SPSS</div>
+                        <div class="chip"><i class="fas fa-file-alt"></i>LaTeX</div>
+                        <div class="chip"><i class="fab fa-docker"></i>Docker</div>
+                        <div class="chip"><i class="fas fa-linux"></i>Linux</div>
+                        <div class="chip"><i class="fab fa-windows"></i>Windows</div>
+                        <div class="chip"><i class="fab fa-apple"></i>macOS</div>
+                    </div>
+                </div>
+
+                <div class="card reveal">
+                    <h2><i class="fas fa-star"></i> Characteristics</h2>
+                    <div class="chip-container">
+                        <div class="chip">
+                            <span class="chip-icon">💡</span>
+                            <span>Innovative</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🔍</span>
+                            <span>Detail-Oriented</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🧩</span>
+                            <span>Problem Solver</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">👥</span>
+                            <span>Team Player</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">🎯</span>
+                            <span>Goal-Oriented</span>
+                        </div>
+                        <div class="chip">
+                            <span class="chip-icon">📚</span>
+                            <span>Lifelong Learner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container">
+            <div class="card reveal">
+                <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Technical Support Assistant</h3>
+                        <p class="date">IEEE IISA 2024 Conference, Chania, Greece | July 17-20, 2024</p>
+                        <ul class="styled-bullets">
+                            <li>Managed presentation logistics and ensured smooth operation of audio-visual equipment</li>
+                            <li>Supported keynote speakers and session chairs during presentations</li>
+                            <li>Collaborated with the organizing team to resolve real-time technical issues</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Technical Support Assistant</h3>
+                        <p class="date">School of Architecture TUC, Chania, Greece | Mar 2023 - Jan 2024</p>
+                        <ul class="styled-bullets">
+                            <li>Managed IT infrastructure, workstations, and software/hardware installations</li>
+                            <li>Provided technical support for printers and assisted faculty and students</li>
+                            <li>Maintained computer lab environments and troubleshooted hardware issues</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Project Manager & Board Member</h3>
+                        <p class="date">Erasmus Student Network (ESN TUC) | Jan 2023 - 2024</p>
+                        <ul class="styled-bullets">
+                            <li>Organized cultural and educational events for international students</li>
+                            <li>Managed logistics, event planning, and community engagement activities</li>
+                            <li>Coordinated teams and enhanced cultural integration experiences</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>AI Research Intern – FAIaS Project</h3>
+                        <p class="date">Universidad Rey Juan Carlos, Madrid | Jun 2022 – Sep 2022</p>
+                        <ul class="styled-bullets">
+                            <li>Worked on the FAIaS (Fostering Artificial Intelligence at School) project</li>
+                            <li>Conducted research on AI integration in education and project coordination</li>
+                            <li>Explored deep learning models for educational applications</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Machine Learning & Image Processing Research Intern</h3>
+                        <p class="date">SenseLab, Chania | Sep 2021 – Nov 2021</p>
+                        <ul class="styled-bullets">
+                            <li>Focused on building detection and segmentation using computer vision</li>
+                            <li>Processed aerial and satellite imagery for real-world applications</li>
+                            <li>Utilized Python, OpenCV, TensorFlow, and GIS tools for image analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="container">
+            <div class="card reveal">
+                <h2><i class="fas fa-book"></i> Publications</h2>
+                <div class="timeline">
+                    <div class="publication-item">
+                        <h3>Emotional State Alterations in Immersive Projection Environments: An EEG Study</h3>
+                        <p class="date">October 2025</p>
+                        <div class="publication-details">
+                            <p><strong>Authors:</strong> Christina Chatzianagnostou, Klea Biniakou, Alexandra Tsipouraki, Konstantinos-Alketas Oungrinis, Michail Zervakis, Marios Antonakakis</p>
+                            <p><strong>Conference:</strong> 25th IEEE International Conference on Bioinformatics and Bioengineering (BIBE 2025), Athens, Greece</p>
+                            <p><strong>Status:</strong> Accepted / Submitted</p>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Multimodal EEG and ECG Analysis for Emotional State Estimation in Immersive Projection Environments</h3>
+                        <p class="date">May 2025</p>
+                        <div class="publication-details">
+                            <p><strong>Authors:</strong> Christina Chatzianagnostou, et al.</p>
+                            <p><strong>Journal:</strong> Frontiers in Human Neuroscience</p>
+                            <p><strong>Status:</strong> Journal Manuscript in preparation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="container">
+            <div class="card reveal">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                
+                <div class="education-item">
+                    <h3>Integrated M.Sc in Electrical and Computer Engineering</h3>
+                    <p class="date">Technical University of Crete | 2018 - 2025 
+                        (<a class="link" href="https://www.ece.tuc.gr/" target="_blank">visit website</a>)
+                    </p>
+                    <div class="chip-container">
+                        <div class="chip">🎓 Diploma Thesis: <a class="link" href="https://dias.library.tuc.gr/view/104100" target="_blank">Multi-Source Data Analysis for Emotion Indicators</a></div>
+                    </div>
+                    <div class="education-description">
+                        <strong>Thesis:</strong> Study of Recording and Analysis of Multi-Source Data for the Estimation of Emotion Indicators<br>
+                        This thesis was partially conducted during an exchange semester at the Department of Biomedical Engineering, Universidad de Valladolid, under the supervision of Prof. Carlos Gómez Peña & Prof. Jesús Poza Crespo.
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <h3>Erasmus+ Exchange</h3>
+                    <p class="date">Universidad de Valladolid, Escuela de Ingenierías Industriales | Sept 2024 - Feb 2025</p>
+                    <div class="chip-container">
+                        <div class="chip">🔧 Final Project: Anti-Aliasing Filter Development</div>
+                        <div class="chip">👨‍🏫 Supervised by Prof. Daniel Moríñigo Sotelo & Prof. Tomas Alberto García Calva</div>
+                    </div>
+                    <div class="education-description">
+                        <strong>Topics:</strong> Analog circuit design, Multisim simulation, oscilloscope FFT analysis, filter characterization, and experimental validation
+                    </div>
+                </div>
+
+                <div class="languages-section">
+                    <h3>Language Proficiency</h3>
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <div class="language-name">Greek</div>
+                            <div class="language-level">Native</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">English</div>
+                            <div class="language-level">Certificate of Proficiency (ECPE)</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">French</div>
+                            <div class="language-level">DELF B2</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">Spanish</div>
+                            <div class="language-level">Ministerio de Educacion Nacional B2</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">Chinese</div>
+                            <div class="language-level">HSK 2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: var(--spacing-xl); color: var(--md-primary);">
+                Featured Projects
+            </h2>
+           
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Biomedical Engineering</span>
+                            <span class="project-tag">EEG Analysis</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                        <h3>Multi-Source Emotion Detection</h3>
+                        <p>Advanced signal processing and machine learning techniques for emotion recognition from EEG and ECG data in immersive environments.</p>
+                        <a href="https://dias.library.tuc.gr/view/104100" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> View Thesis
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div style="height: 200px; background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Circuit Design</span>
+                            <span class="project-tag">VHDL</span>
+                            <span class="project-tag">Signal Processing</span>
+                        </div>
+                        <h3>Anti-Aliasing Filter Implementation</h3>
+                        <p>Development and implementation of analog anti-aliasing filters with comprehensive simulation and experimental validation.</p>
+                        <span class="btn btn-secondary">
+                            <i class="fas fa-clock"></i> Academic Project
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div style="height: 200px; background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">GIS</span>
+                        </div>
+                        <h3>Building Detection & Segmentation</h3>
+                        <p>Computer vision system for automated building detection and segmentation in aerial and satellite imagery using deep learning.</p>
+                        <span class="btn btn-secondary">
+                            <i class="fas fa-building"></i> SenseLab Project
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <div style="height: 200px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); display: flex; align-items: center; justify-content: center; color: #333; font-size: 2rem;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Educational AI</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">Research</span>
+                        </div>
+                        <h3>AI in Education (FAIaS)</h3>
+                        <p>Research on AI integration in educational systems and development of deep learning models for educational applications.</p>
+                        <span class="btn btn-secondary">
+                            <i class="fas fa-university"></i> Research Project
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteering Section -->
+        <section id="volunteering" class="container">
+            <div class="card reveal">
+                <h2><i class="fas fa-hands-helping"></i> Volunteering</h2>
+                <div class="volunteering-grid">
+                    <div class="volunteer-item">
+                        <div class="volunteer-title">Financial Affairs Committee Coordinator</div>
+                        <div class="volunteer-org">Amnesty International Greece | Jan 2022 – Present</div>
+                    </div>
+                    <div class="volunteer-item">
+                        <div class="volunteer-title">Festival Volunteer – Event & Venue Support</div>
+                        <div class="volunteer-org">Chania Film Festival | Oct 2019 – 2024</div>
+                    </div>
+                    <div class="volunteer-item">
+                        <div class="volunteer-title">Radio Producer & Host</div>
+                        <div class="volunteer-org">Radio Entasi 93.5 (Student Group) | Jan 2021 – 2025</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <div class="card reveal">
+                <h2><i class="fas fa-envelope"></i> Let's Connect</h2>
+                <p>I'm always interested in discussing new opportunities, research collaborations, or innovative projects in AI and biomedical engineering.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:hrictinah@gmail.com?subject=Hello%20from%20your%20website&body=Hi%20Christina,%0A%0AI%20found%20your%20website%20and%20would%20like%20to%20connect..." class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/christina-chatzianagnostou/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="tel:+306981600872" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> Call Me
+                    </a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h4>References</h4>
+                    <div class="references-grid">
+                        <div class="reference-item">
+                            <div class="reference-name">Michael Zervakis</div>
+                            <div class="reference-position">Rector / Professor<br>Technical University of Crete</div>
+                            <div class="reference-contact">mzervakis@tuc.gr</div>
+                        </div>
+                        <div class="reference-item">
+                            <div class="reference-name">Daniel Moriñigo-Sotelo</div>
+                            <div class="reference-position">Associate Professor<br>University of Valladolid</div>
+                            <div class="reference-contact">daniel.morinigo@uva.es</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Action Button -->
+    <button class="fab" id="scrollToTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2025 Christina Chatzianagnostou</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
