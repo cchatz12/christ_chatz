@@ -137,15 +137,6 @@ function initializeScrollEffects() {
         }
     });
 
-    // Parallax effect for hero section
-    const hero = document.querySelector('.hero');
-    if (hero) {
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const parallaxSpeed = 0.5;
-            hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
-        });
-    }
 }
 
 // ===== Intersection Observer Animations =====
