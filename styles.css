@@ -32,6 +32,35 @@ body {
     overflow-x: hidden;
 }
 
+/* ===== About Section Fix ===== */
+#about {
+    background: var(--background);
+    position: relative;
+    z-index: 10;
+}
+
+/* Update the container to ensure proper background */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background: var(--background);
+    position: relative;
+}
+
+/* Ensure cards have solid backgrounds */
+.card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    position: relative;
+    z-index: 15;
+}
+
 /* ===== Loader ===== */
 .loader {
     position: fixed;
