@@ -343,35 +343,67 @@ h1 span {
     margin-bottom: 1.5rem;
 }
 
-/* ===== Chips ===== */
+/* ===== Chips - Horizontal Layout ===== */
 .chip-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.75rem;
+    justify-content: flex-start;
 }
 
 .chip {
     background: white;
     border: 1px solid var(--border);
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
     border-radius: 20px;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     transition: all 0.3s;
     cursor: default;
+    white-space: nowrap;
 }
 
-.chip:hover {
-    background: var(--primary);
-    color: white;
-    border-color: var(--primary);
-    transform: translateY(-2px);
+/* Update card headers for better typography */
+.card h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
 }
 
-.chip-icon {
-    font-size: 1.1rem;
+/* Make cards more compact */
+.card {
+    background: var(--surface);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Adjust grid for better horizontal layout */
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+/* For medium screens */
+@media (max-width: 1024px) {
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ===== Timeline ===== */
