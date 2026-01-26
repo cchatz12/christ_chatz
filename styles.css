@@ -454,6 +454,22 @@ h1 span {
     font-size: 1.5rem;
 }
 
+/* ===== Expertise Categories ===== */
+.expertise-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tech-category h4 {
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 /* ===== Chips ===== */
 .chip-container {
     display: flex;
@@ -761,13 +777,6 @@ h1 span {
 .volunteer-date {
     color: var(--text-light);
     font-size: 0.85rem;
-    margin-bottom: 0.5rem;
-}
-
-.volunteer-highlight {
-    color: var(--text);
-    font-size: 0.875rem;
-    font-style: italic;
 }
 
 /* ===== Publications ===== */
@@ -1021,7 +1030,7 @@ h1 span {
 
 .references-grid-modern {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -1194,6 +1203,10 @@ footer p {
     .profile-pic {
         width: 150px;
         height: 150px;
+    }
+
+    .references-grid-modern {
+        grid-template-columns: 1fr;
     }
 }
 
