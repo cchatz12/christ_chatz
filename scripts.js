@@ -191,7 +191,7 @@ function initializeAnimations() {
 function initializeTypingEffect() {
     const subtitle = document.getElementById('heroSubtitle');
     if (subtitle) {
-        const text = 'Electrical & Computer Engineer | PhD Candidate';
+        const text = 'PhD Candidate | AI & Signal Processing Researcher';
         let i = 0;
         
         function typeWriter() {
